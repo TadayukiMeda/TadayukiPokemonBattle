@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f774af9389fa2c49811b20631c113cd, type: 3}
+  m_Name: "\u30A2\u30C1\u30E3\u30E2"
+  m_EditorClassIdentifier: 
+  name: "\u30A2\u30C1\u30E3\u30E2"
+  type: 0
+  ability:
+    hp: 100
+    physicsAttack: 30
+    physicsGuard: 40
+    specialAttack: 40
+    specialGuard: 50
+    speed: 30
+  image: {fileID: 21300000, guid: c62430569115b4f4a8047434ed37f223, type: 3}
+  skillList:
+  - {fileID: 11400000, guid: b5aceff9a63a27043bdd64c293764f7f, type: 2}
+  - {fileID: 11400000, guid: d9f676ec027d7e34e9da83cce688a59a, type: 2}
+  - {fileID: 11400000, guid: afde4c5bac7ab994e925331469e1506d, type: 2}
+  - {fileID: 11400000, guid: b994168ea1ba8254aaee6f8e7dd722bd, type: 2}
