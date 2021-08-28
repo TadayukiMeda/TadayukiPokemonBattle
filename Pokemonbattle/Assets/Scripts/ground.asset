@@ -12,5 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d68388d5b925f5645aa8c9fec842aa63, type: 3}
   m_Name: ground
   m_EditorClassIdentifier: 
-  Mytype: 8
-  nigate: 050000000200000004000000
+  mytype: 0
+  color: {r: 0.3490566, g: 0.15989436, b: 0.021404423, a: 1}
+  nigate:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}

@@ -4,14 +4,16 @@ using UnityEngine;
 
 [CreateAssetMenu(fileName = "Type", menuName = "ScriptableObjects/PokemonType")]
 
-public class Pokemontype : ScriptableObject
+public class PokemonType : ScriptableObject
 {
 
-    public　Ptype Mytype;
+    public　Ptype mytype;
+    public Color color;
     
 
-    [SerializeField,Header("苦手なタイプ")] List<Ptype> nigate;
-         
+    [SerializeField,Header("苦手なタイプ")] List<PokemonType> weak;
+    [SerializeField, Header("得意なタイプ")] List<PokemonType> strong;
+
 }
 
 

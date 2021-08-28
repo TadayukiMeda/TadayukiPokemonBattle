@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: "\u304D\u3082\u308A"
   m_EditorClassIdentifier: 
   name: "\u304D\u3082\u308A"
-  type: 0
+  type: {fileID: 11400000, guid: a0c4a6d9ef3cee34a92546bef26b564f, type: 2}
   ability:
     hp: 100
     physicsAttack: 30

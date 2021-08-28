@@ -7,7 +7,7 @@ using UnityEngine.UI;
 public class PokemonInfo : ScriptableObject
 {
     public string name;
-    public Ptype type;
+    public PokemonType type;
     public AbilityStruct ability;
     public Sprite image;
     public Skill[] skillList;

@@ -12,5 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d68388d5b925f5645aa8c9fec842aa63, type: 3}
   m_Name: grass
   m_EditorClassIdentifier: 
-  Mytype: 4
-  nigate: 0100000005000000090000000b00000007000000
+  mytype: 0
+  color: {r: 0.33163524, g: 1, b: 0, a: 1}
+  nigate:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}

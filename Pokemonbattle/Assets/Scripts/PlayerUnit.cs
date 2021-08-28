@@ -10,15 +10,13 @@ public class PlayerUnit : UnitBese
     protected override void Start()
     {
         calling = "ポケモン使い";
-
         base.Start();
-
+        SetSkillButton();
     }
     protected override void SetUI()
     {
         
         base.SetUI();
-        SetSkillButton();
     }
     public void SetSkillButton()
     {
@@ -26,13 +24,13 @@ public class PlayerUnit : UnitBese
         {
             Button button = skillButtonParent.GetChild(i).GetComponent<Button>();
             Skill skill = info.skillList[i];
-            button.image.color = TypeManager.Instance.GetComponet(skill.type);
+            button.image.color = skill.type.color;
             button.gameObject.transform.GetChild(0).gameObject.GetComponent<Text>().text = skill.name;
             button.onClick.AddListener(
                 () =>
                 {
-                    skill.UseSkill(this);
-                    BattleManager.Instance.BattleProcess();
+                   skill.UseSkill(this);
+                    //BattleManager.Instance.BattleProcess();
                 }
             );
         }
