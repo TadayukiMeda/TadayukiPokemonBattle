@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: "\u3072\u306E\u3053"
   m_EditorClassIdentifier: 
   name: "\u3072\u306E\u3053"
-  type: 1
+  type: {fileID: 11400000, guid: 3d4f7651d4bc39044990c9e78a98e7d8, type: 2}
   power: 20

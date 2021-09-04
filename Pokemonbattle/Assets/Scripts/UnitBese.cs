@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class UnitBese : MonoBehaviour
+public class UnitBase : MonoBehaviour
 {
     public PokemonInfo info;
     protected AbilityStruct statusAbilityStruct;

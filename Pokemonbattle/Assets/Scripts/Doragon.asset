@@ -13,8 +13,6 @@ MonoBehaviour:
   m_Name: Doragon
   m_EditorClassIdentifier: 
   mytype: 0
-  color: {r: 0.87699795, g: 0, b: 1, a: 1}
-  nigate:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  color: {r: 0.52712154, g: 0, b: 1, a: 1}
+  weak: []
+  strong: []

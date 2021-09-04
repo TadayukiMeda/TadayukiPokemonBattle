@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class PlayerUnit : UnitBese
+public class PlayerUnit : UnitBase
 {
     public Transform skillButtonParent;
     // Start is called before the first frame update
@@ -35,7 +35,7 @@ public class PlayerUnit : UnitBese
             );
         }
     }
-    public void setSkillButtonEnabled(bool enabled)
+    public void SetSkillButtonEnabled(bool enabled)
     {
         for(int i = 0; i < skillButtonParent.childCount; i++)
         {

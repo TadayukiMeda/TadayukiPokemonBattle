@@ -8,7 +8,7 @@ public class Skill : ScriptableObject
     public string name; 
     public PokemonType type;
     public int power;
-    public void UseSkill(UnitBese unit)
+    public void UseSkill(UnitBase unit)
     {
         Debug.Log(unit.info.name+"no,"+name);
         MessageManager.Instance.SetMessage(unit.info.name + "no," + name, 2);
