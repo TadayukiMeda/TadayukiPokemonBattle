@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: "\u30A2\u30C1\u30E3\u30E2"
   m_EditorClassIdentifier: 
   name: "\u30A2\u30C1\u30E3\u30E2"
-  type: {fileID: 11400000, guid: bd8d298d2a9fa19489b5c7879516bcb9, type: 2}
+  type: {fileID: 11400000, guid: 3d4f7651d4bc39044990c9e78a98e7d8, type: 2}
   ability:
     hp: 100
     physicsAttack: 30

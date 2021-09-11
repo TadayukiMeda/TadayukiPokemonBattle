@@ -10,6 +10,7 @@ public class PlayerUnit : UnitBase
     protected override void Start()
     {
         calling = "ポケモン使い";
+        PlayerManager.Instance.AddPlayer(this);
         base.Start();
         SetSkillButton();
     }
@@ -30,7 +31,7 @@ public class PlayerUnit : UnitBase
                 () =>
                 {
                    skill.UseSkill(this);
-                    //BattleManager.Instance.BattleProcess();
+                    Battlemanager.Instance.BattleProcess();
                 }
             );
         }

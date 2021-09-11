@@ -10,9 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d68388d5b925f5645aa8c9fec842aa63, type: 3}
-  m_Name: Doragon
+  m_Name: doragon
   m_EditorClassIdentifier: 
-  mytype: 0
-  color: {r: 0.52712154, g: 0, b: 1, a: 1}
-  weak: []
-  strong: []
+  mytype: 14
+  color: {r: 0.65605783, g: 0, b: 1, a: 1}
+  weak:
+  - {fileID: 11400000}
+  - {fileID: 11400000, guid: e1df96daa709a5a4595c158f35724b14, type: 2}
+  - {fileID: 11400000, guid: 89145e96ba9330b489cd60d5bcdb6d4e, type: 2}
+  strong:
+  - {fileID: 11400000}

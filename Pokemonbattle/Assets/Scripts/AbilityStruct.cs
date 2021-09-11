@@ -32,7 +32,7 @@ public struct AbilityStruct
              }
              else
              {
-                 return (value) / 2f;
+                 return (value +2f) / 2f;
              }
          };
         var returnAbility = new AbilityStruct(0, 0, 0, 0, 0, 0);

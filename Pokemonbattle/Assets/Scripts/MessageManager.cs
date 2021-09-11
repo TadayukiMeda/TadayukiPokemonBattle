@@ -11,7 +11,7 @@ public class MessageManager :SingletonMonoBehaviour<MessageManager>
     {
         message.DOText("こんばんは、いつか佐藤さんにポケモンのAIを作ってもらいます",3).SetEase(Ease.Linear);
     }
-    public void SetMessage(string text,float time)
+    public void SetMessage(string text,float time=1)
     {
         message.text = "";
         message.DOText(text, time).SetEase(Ease.Linear);

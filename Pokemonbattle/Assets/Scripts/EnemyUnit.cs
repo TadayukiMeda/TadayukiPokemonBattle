@@ -7,7 +7,7 @@ public class EnemyUnit : UnitBase
     protected override void Start()
     {
         calling = "ポケモン使い";
-
+        PlayerManager.Instance.AddOtherPlayer(this);
         base.Start();
 
     }

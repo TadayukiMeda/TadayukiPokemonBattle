@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d68388d5b925f5645aa8c9fec842aa63, type: 3}
+  m_Name: doku
+  m_EditorClassIdentifier: 
+  mytype: 7
+  color: {r: 0.48904866, g: 0.018066937, b: 0.5471698, a: 1}
+  weak:
+  - {fileID: 11400000, guid: 53dfeb4d9c33463409c85f863b68da91, type: 2}
+  - {fileID: 11400000, guid: 2729911c1d58b3f4bb70e32088f239ac, type: 2}
+  strong:
+  - {fileID: 11400000, guid: e1df96daa709a5a4595c158f35724b14, type: 2}
+  - {fileID: 11400000, guid: a0c4a6d9ef3cee34a92546bef26b564f, type: 2}

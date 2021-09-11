@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d68388d5b925f5645aa8c9fec842aa63, type: 3}
+  m_Name: aku
+  m_EditorClassIdentifier: 
+  mytype: 15
+  color: {r: 0.3160377, g: 0.47125524, b: 1, a: 1}
+  weak:
+  - {fileID: 11400000, guid: 59d931f05578b644fbf3e720cac56266, type: 2}
+  - {fileID: 11400000, guid: 45d1b234fd851f64293b321a3526b3a2, type: 2}
+  - {fileID: 11400000, guid: e1df96daa709a5a4595c158f35724b14, type: 2}
+  strong:
+  - {fileID: 11400000, guid: 2729911c1d58b3f4bb70e32088f239ac, type: 2}
+  - {fileID: 11400000, guid: 25583c906e442824baf5355f2883bffe, type: 2}

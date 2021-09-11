@@ -54,6 +54,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\AbilityStruct.cs" />
+     <Compile Include="Assets\Scripts\AttackType.cs" />
      <Compile Include="Assets\Scripts\BattleMainSystem.cs" />
      <Compile Include="Assets\Scripts\Battlemanager.cs" />
      <Compile Include="Assets\Scripts\BeforeBattleMainSystem.cs" />

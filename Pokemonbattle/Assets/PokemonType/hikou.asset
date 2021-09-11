@@ -14,5 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mytype: 9
   color: {r: 0.5518868, g: 0.9514319, b: 1, a: 1}
-  weak: []
-  strong: []
+  weak:
+  - {fileID: 11400000, guid: 74e14dbccb1b01942b9c9aae2dc2bd38, type: 2}
+  - {fileID: 11400000, guid: 89145e96ba9330b489cd60d5bcdb6d4e, type: 2}
+  - {fileID: 11400000, guid: e238199d93542e14b90b1622d6a838ca, type: 2}
+  strong:
+  - {fileID: 11400000, guid: a0c4a6d9ef3cee34a92546bef26b564f, type: 2}
+  - {fileID: 11400000, guid: 59d931f05578b644fbf3e720cac56266, type: 2}
+  - {fileID: 11400000, guid: 45d1b234fd851f64293b321a3526b3a2, type: 2}

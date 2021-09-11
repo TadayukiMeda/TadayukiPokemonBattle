@@ -10,9 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d68388d5b925f5645aa8c9fec842aa63, type: 3}
-  m_Name: kakutou
+  m_Name: "\u30B4\u30FC\u30B9\u30C8"
   m_EditorClassIdentifier: 
-  mytype: 6
-  color: {r: 0.7924528, g: 0.29717138, b: 0.115877524, a: 1}
-  weak: []
-  strong: []
+  mytype: 13
+  color: {r: 0.5570202, g: 0, b: 1, a: 1}
+  weak:
+  - {fileID: 11400000}
+  - {fileID: 11400000, guid: ea6aed5072a862f42bda6ce0b2a17262, type: 2}
+  strong:
+  - {fileID: 11400000, guid: 2729911c1d58b3f4bb70e32088f239ac, type: 2}
+  - {fileID: 11400000}

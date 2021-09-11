@@ -17,9 +17,9 @@ public class PlayerManager : SingletonMonoBehaviour<PlayerManager>
         otherplayer = unit;
       //  otherplayer.info = pokemonKindArray[Random.Range(0,pokemonKindArray.Length)];
     }
-    public UnitBase GetPlayer()
+    public PlayerUnit GetPlayer()
     {
-        return player;
+        return (PlayerUnit)player;
     }
     public UnitBase GetOtherPlayer()
     {
